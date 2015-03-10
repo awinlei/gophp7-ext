@@ -9,6 +9,8 @@ navigation:
       url: /extensions-catalog.html
     - text: Blog
       url: /blog.html
+    - text: Testing extensions
+      url: /testing-extensions.html
 
 defaults:
   -
