@@ -48,7 +48,7 @@ Please get in touch with maintainers and check whether they are still active - t
 
 Run the tests.  Bonus points if you can add more tests.
 
-Take a look at <http://qa.php.net> and learn to write `.phpt` tests (spoiler: they're really easy)
+We have more detailed documentation on doing this on the [testing extensions page](testing-extensions.html)
 
 ## Has documentation
 
