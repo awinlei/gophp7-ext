@@ -6,7 +6,7 @@ title: Testing extensions
 # Testing extensions
 
 When you have "adopted" an extension it is likely you are going to want to have a look at the tests that exist for it. Basic information considering these
-tests can be found here: http://qa.php.net/
+tests can be found here: <http://qa.php.net/>
 
 This page is aimed at answering the most likely questions on testing extension you will have. This page considers you succeeded to configure and compile PHP
 from source already. Obviously with your "adopted" extension(s) included.
@@ -31,3 +31,13 @@ same folder as the test file. The following files are added (considering your te
  * foo.out - The actual output of your .phpt test part.
  * foo.php - The php code that was executed for this test.
  * foo.sh - An executable file that executes the test for you as it was executed during failure.
+
+## Generating code coverage
+
+A helpful tool might be the code coverage report you can generate. You will need the lcov and ggcov packages (on linux) installed, they are named exactly like
+mentioned. If you have those packages installed the simple "make lcov" command will generate a code coverage report that is also viewable as HTML. This report
+is built in the main directory and can be found in the lcov_html folder. A prerequisite for making lcov is that your configuration has "--enable-gcov"
+
+If you had not configured like this previously "./config.nice --enable-gcov" will add to your existing configuration (making sure you do not have to remember
+the different flags you added to configure earlier. After that "make lcov" should work as expected. You can now see which parts are not covered at all and are 
+in need of tests. Good luck!
