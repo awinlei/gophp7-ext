@@ -66,7 +66,8 @@ Even without prior c-knowledge you can understand what happens here. It is also 
 > bool(false)
 
 The %s is a wildcard since the last bit of the error string is dynamic. Now this test will not add an awful lot to PHP's stability but at the very least it will guard us against accidental function signature changes or unwanted BC-breaks.
-Proceeding
+
+## Proceeding
 
 Now the above example is very simple, but most of PHP's source code is just as readable and you can generate code coverage for everything. Take a look at uncovered lines and see if you can come up with sensible tests. As you can see in our "red" image there must be a lot of core functionality untested, something you can change! This is obviously the hardest part, but you'll learn about PHP's internals and it is a ton of fun.
 
