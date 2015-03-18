@@ -1,5 +1,5 @@
 ---
-title: Compiling and testing exceptions
+title: Compiling and testing extensions
 ---
 
 If you would like to help but have not compiled PHP, looked at an extension or written a test for PHP this blog aims to help you. It is intended to guide you to writing your first .phpt test step by step. 
