@@ -65,6 +65,8 @@ Try <http://www.lornajane.net/posts/2014/compiling-php-extensions> as a starting
 
 Make it build on PHP7 (while writing down how it's done) - this is probably the hardest part, the part for people who want to learn extensions or know C to work on, - this includes brain dumps of best practices, things to watch out for,  how to migrate will help later folks get up to speed
 
+There is a [guide for upgrading extensions](https://wiki.php.net/phpng-upgrading) on the php.net wiki and also a page about the [implementation of PHP7](https://wiki.php.net/phpng-int) that may be useful for reference.
+
 ## Is good on PHP
 
 Make it run RIGHT on PHP7 - this is more than just C code.... if they don't have tests, add tests, if they don't have docs, write docs, if their apis were designed 10 years ago and use resources and hurt you to touch them - redesign the apis, set up travis and appveyor(windows ci) so that they are continously tested, fix bugs that have been outstanding, add new features - keep the extensions alive and well
