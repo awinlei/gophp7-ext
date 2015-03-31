@@ -38,7 +38,7 @@ We need to make sure that people know two things:
 
 ### Help us with development platforms
 
-We're going to need easy ways to help people get up and running.  To start with we're aiming for vagrant boxes to help with quick development setup (joepferguson is in charge) - besides using rasmus's excellent PHP7 box <https://atlas.hashicorp.com/rasmus/boxes/php7dev> we'll also need windows boxes, and possibly some different virtual backends (parallels, hyper-v, vmware) for the php7dev box beyond virtualbox
+We have started compiling a list of [development platforms](development-platforms.html) to help compile PHP and extensions.
 
 ### Write the documentation for our helpers
 
