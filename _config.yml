@@ -11,7 +11,7 @@ navigation:
       url: /blog.html
     - text: Testing extensions
       url: /testing-extensions.html
-    - text: Development platforms
+    - text: Dev platforms
       url: /development-platforms.html
 
 defaults:

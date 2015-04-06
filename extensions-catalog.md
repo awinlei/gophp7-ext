@@ -61,9 +61,13 @@ Where is the documentation?  Some resources for you if you need to write or upda
 
 Try <http://www.lornajane.net/posts/2014/compiling-php-extensions> as a starting resource (which should probably be forked to a page on this site so we can improve and update it)
 
+The [dev platforms page](development-platforms.html) has a list of platforms which should have all the tools you need to compile PHP at various versions - this is for PHP5 as well as PHP7.
+
 ## Works on PHP7
 
 Make it build on PHP7 (while writing down how it's done) - this is probably the hardest part, the part for people who want to learn extensions or know C to work on, - this includes brain dumps of best practices, things to watch out for,  how to migrate will help later folks get up to speed
+
+The [dev platforms page](development-platforms.html) has a list of platforms which should have all the tools you need to compile PHP at various versions.
 
 There is a [guide for upgrading extensions](https://wiki.php.net/phpng-upgrading) on the php.net wiki and also a page about the [implementation of PHP7](https://wiki.php.net/phpng-int) that may be useful for reference.
 
