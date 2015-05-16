@@ -9,5 +9,9 @@ We're going to need easy ways to help people get up and running.  To start with 
 
 Below is a list of development environments that can be used to build PHP 7 and test extensions.
 
-* [Rasmus' PHP 7 Dev Box](https://github.com/rlerdorf/php7dev)
+* [Rasmus' PHP 7 Dev Box](https://github.com/rlerdorf/php7dev) - actually contains all versions of PHP and easy ways to switch, update and recompile them.
 * [Windows 7 for compiling PHP 7](https://github.com/svpernova09/Windows7-php7dev)
+
+Other sources of PHP 7:
+
+* [Zend's nightly PHP7 builds for Debian and CentOS](http://php7.zend.com)
