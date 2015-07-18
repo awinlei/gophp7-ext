@@ -11,6 +11,7 @@ Below is a list of development environments that can be used to build PHP 7 and 
 
 * [Rasmus' PHP 7 Dev Box](https://github.com/rlerdorf/php7dev) - actually contains all versions of PHP and easy ways to switch, update and recompile them.
 * [Windows 7 for compiling PHP 7](https://github.com/svpernova09/Windows7-php7dev)
+* [PHPBrew](http://phpbrew.github.io/phpbrew/) - PHP CLI application to easily install various versions of PHP including master branch.
 
 Other sources of PHP 7:
 
