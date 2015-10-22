@@ -71,7 +71,7 @@ The [dev platforms page](development-platforms.html) has a list of platforms whi
 
 There is a [guide for upgrading extensions](https://wiki.php.net/phpng-upgrading) on the php.net wiki and also a page about the [implementation of PHP7](https://wiki.php.net/phpng-int) that may be useful for reference.
 
-## Is good on PHP
+## Is good on PHP7
 
 Make it run RIGHT on PHP7 - this is more than just C code.... if they don't have tests, add tests, if they don't have docs, write docs, if their apis were designed 10 years ago and use resources and hurt you to touch them - redesign the apis, set up travis and appveyor(windows ci) so that they are continously tested, fix bugs that have been outstanding, add new features - keep the extensions alive and well
 
