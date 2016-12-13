@@ -13,4 +13,7 @@ It's time to make extensions first class citizens of the PHP community
 ## Get Involved
 
 All the information you need is on our site <http://gophp7.org/gophp7-ext/>
+版本区别在这里
+https://github.com/gophp7/gophp7-ext/wiki/extensions-catalog
+
 
